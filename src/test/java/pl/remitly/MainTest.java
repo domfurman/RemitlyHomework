@@ -16,12 +16,4 @@ public class MainTest {
         assertEquals(Main.fileNameRequired, result.getName());
         assertNotNull(result, "File is empty");
     }
-
-    @Test
-    public void verificationTest() {
-
-        String fileToFind = "policy.json";
-
-
-    }
 }
